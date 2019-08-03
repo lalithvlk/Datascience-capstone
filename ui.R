@@ -10,7 +10,6 @@ shinyUI(navbarPage("Coursera Data Science Capstone: Course Project",
                             br(),
                             HTML("<strong>Date: 03 AUGUST 2019</strong>"),
                             br(),
-                            img(src = "./headers.png"),
                             # Sidebar
                               sidebarLayout(
                               sidebarPanel(
@@ -36,8 +35,7 @@ shinyUI(navbarPage("Coursera Data Science Capstone: Course Project",
                              
                   ),
                    tabPanel("About",
-                            mainPanel(
-                              img(src = "./headers.png"),
+                            mainPanel (
                               includeMarkdown("about.md")
                             )
                    )
